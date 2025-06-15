@@ -60,4 +60,7 @@ const arrX = [1,2,3,4,5];
 const arrY = [6,7,8,9,10];
 console.log("merged array " + arrX.concat(arrY));
 
+// concatinating arrays using concat() - O(n) with using ... spread operator
+const arrZ  = [...arrX, ...arrY]
+
 
