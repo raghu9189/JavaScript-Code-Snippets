@@ -6,6 +6,7 @@ let counter = 0;
 const interval = setInterval(()=>{
     counter++;
     console.log(`Interval tick ${counter}`);
+    
     // stop at time 5th
     if (counter == 5) clearInterval(interval);
     greetEveryTime('Raghu');
