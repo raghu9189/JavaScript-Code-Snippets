@@ -1,7 +1,9 @@
 const greetEveryTime = (userName='User') => {
     console.log(`Hello ${userName}`);
 }
+
 console.log(`Start 📌`)
+
 let counter = 0;
 const interval = setInterval(()=>{
     counter++;
