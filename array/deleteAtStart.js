@@ -15,11 +15,5 @@ console.log(arr);
 let newArr = deleteAtPosition(arr);
 console.log(newArr);
 
-// before
-// 1, 20, 4, 3, 6, 0
-
-// after
-// 1, 34, 20, 4, 3, 6, 
-
 // Time Complexity: Worst: O(N)  
 // Auxiliary Space: O(1)
