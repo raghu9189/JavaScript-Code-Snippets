@@ -1,4 +1,5 @@
 // [Expected Approach - 2] By Swapping Elements - O(n) Time and O(1) Space
+// https://www.geeksforgeeks.org/dsa/program-to-reverse-an-array/
 
 function reverseArray(arr) {
     const n = arr.length;
