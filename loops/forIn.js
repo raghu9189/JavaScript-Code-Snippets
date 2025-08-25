@@ -19,3 +19,10 @@ const items = [10, 20, 30, 40, 50]
 for (const key in items) {
     console.log(items[key])
 }
+
+// with string
+let nameUser = 'raghu';
+
+for (let char of nameUser){
+    console.log(char)
+}
