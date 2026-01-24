@@ -7,3 +7,7 @@ const sum = a.reduce((acc, x, index) => {
 }, 10);
 
 console.log(sum);
+
+
+const sub = a.reduce((acc, curr) => acc - curr, 0);
+console.log(sub); // Output: -6
