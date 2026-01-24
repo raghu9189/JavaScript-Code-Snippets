@@ -17,11 +17,12 @@ function countLength(head){
 }
 
 function main(){
-    let head = new Node(10);
-    head.next = new Node(20);
-    head.next.next = new Node(30);
-    let len = countLength(head);
-    console.log('Length : ', len);
+    // let head = new Node(10);
+    // head.next = new Node(20);
+    // head.next.next = new Node(30);
+    // let len = countLength(head);
+    // console.log('Length : ', len);
+    
 }
 
 main()
