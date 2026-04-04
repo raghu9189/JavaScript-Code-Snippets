@@ -23,7 +23,7 @@ const sayGoodbye = () => {
 sayGreet('Raghu', sayGoodbye);
 
 // Returning from functions
-function createGreeter(greeting) {
+function createGreater(greeting) {
     return function(name) {
         console.log(`${greeting} ${name}`);
     };

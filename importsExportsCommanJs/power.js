@@ -1,4 +1,4 @@
- const powerOfTwo = (num) => {
+const powerOfTwo = (num) => {
     return num * num;
 };
 
