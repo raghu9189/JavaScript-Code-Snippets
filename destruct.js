@@ -6,3 +6,4 @@ function getItems(url) {
 
 const {posts, blogs}= getItems("rr");
 console.log(posts, blogs);
+
